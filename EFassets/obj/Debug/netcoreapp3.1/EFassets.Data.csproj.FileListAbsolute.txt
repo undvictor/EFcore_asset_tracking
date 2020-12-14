@@ -1,0 +1,15 @@
+C:\Users\Victo\source\repos\EFassets\EFassets\bin\Debug\netcoreapp3.1\EFassets.Data.deps.json
+C:\Users\Victo\source\repos\EFassets\EFassets\bin\Debug\netcoreapp3.1\EFassets.Data.runtimeconfig.json
+C:\Users\Victo\source\repos\EFassets\EFassets\bin\Debug\netcoreapp3.1\EFassets.Data.runtimeconfig.dev.json
+C:\Users\Victo\source\repos\EFassets\EFassets\bin\Debug\netcoreapp3.1\EFassets.Data.dll
+C:\Users\Victo\source\repos\EFassets\EFassets\bin\Debug\netcoreapp3.1\EFassets.Data.pdb
+C:\Users\Victo\source\repos\EFassets\EFassets\bin\Debug\netcoreapp3.1\EFassets.Domains.dll
+C:\Users\Victo\source\repos\EFassets\EFassets\bin\Debug\netcoreapp3.1\EFassets.Domains.pdb
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.csprojAssemblyReference.cache
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.AssemblyInfoInputs.cache
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.AssemblyInfo.cs
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.csproj.CoreCompileInputs.cache
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.csproj.CopyComplete
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.dll
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.pdb
+C:\Users\Victo\source\repos\EFassets\EFassets\obj\Debug\netcoreapp3.1\EFassets.Data.genruntimeconfig.cache

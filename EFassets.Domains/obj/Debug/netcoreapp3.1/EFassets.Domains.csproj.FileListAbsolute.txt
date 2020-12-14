@@ -1,0 +1,9 @@
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\bin\Debug\netcoreapp3.1\EFassets.Domains.deps.json
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\bin\Debug\netcoreapp3.1\EFassets.Domains.dll
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\bin\Debug\netcoreapp3.1\EFassets.Domains.pdb
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\obj\Debug\netcoreapp3.1\EFassets.Domains.csprojAssemblyReference.cache
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\obj\Debug\netcoreapp3.1\EFassets.Domains.AssemblyInfoInputs.cache
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\obj\Debug\netcoreapp3.1\EFassets.Domains.AssemblyInfo.cs
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\obj\Debug\netcoreapp3.1\EFassets.Domains.csproj.CoreCompileInputs.cache
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\obj\Debug\netcoreapp3.1\EFassets.Domains.dll
+C:\Users\Victo\source\repos\EFassets\EFassets.Domains\obj\Debug\netcoreapp3.1\EFassets.Domains.pdb
