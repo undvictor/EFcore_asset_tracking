@@ -4,14 +4,16 @@ using EFassets.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EFassets.Data.Migrations
 {
     [DbContext(typeof(AssetContext))]
-    partial class AssetContextModelSnapshot : ModelSnapshot
+    [Migration("20201215103621_what")]
+    partial class what
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -32,6 +34,9 @@ namespace EFassets.Data.Migrations
                     b.Property<string>("AssetName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("CategoryObjectId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("OfficesOfficeId")
                         .HasColumnType("int");
 
@@ -46,6 +51,8 @@ namespace EFassets.Data.Migrations
 
                     b.HasKey("AssetId");
 
+                    b.HasIndex("CategoryObjectId");
+
                     b.HasIndex("OfficesOfficeId");
 
                     b.ToTable("Assets");
@@ -58,16 +65,10 @@ namespace EFassets.Data.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("AssetId")
-                        .HasColumnType("int");
-
                     b.Property<string>("CategoryName")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AssetId")
-                        .IsUnique();
 
                     b.ToTable("Categories");
                 });
@@ -89,25 +90,17 @@ namespace EFassets.Data.Migrations
 
             modelBuilder.Entity("EFassets.Domains.Asset", b =>
                 {
+                    b.HasOne("EFassets.Domains.Category", "CategoryObject")
+                        .WithMany()
+                        .HasForeignKey("CategoryObjectId");
+
                     b.HasOne("EFassets.Domains.Office", "Offices")
                         .WithMany()
                         .HasForeignKey("OfficesOfficeId");
 
-                    b.Navigation("Offices");
-                });
-
-            modelBuilder.Entity("EFassets.Domains.Category", b =>
-                {
-                    b.HasOne("EFassets.Domains.Asset", null)
-                        .WithOne("CategoryObject")
-                        .HasForeignKey("EFassets.Domains.Category", "AssetId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("EFassets.Domains.Asset", b =>
-                {
                     b.Navigation("CategoryObject");
+
+                    b.Navigation("Offices");
                 });
 #pragma warning restore 612, 618
         }
